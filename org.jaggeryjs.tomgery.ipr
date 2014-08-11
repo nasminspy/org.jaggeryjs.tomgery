@@ -85,6 +85,7 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" />
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="javax.servlet-api-3.1.0">
@@ -97,6 +98,13 @@
     <library name="org.jaggeryjs.apps-0.9.0-SNAPSHOT">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/org.jaggeryjs.apps-0.9.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="org.jaggeryjs.core-0.9.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/org.jaggeryjs.core-0.9.0-SNAPSHOT.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />

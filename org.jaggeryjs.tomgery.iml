@@ -22,6 +22,7 @@
     </orderEntry>
     <orderEntry type="library" name="javax.servlet-api-3.1.0" level="project" />
     <orderEntry type="library" name="tomcat-embed-logging-juli-8.0.9" level="project" />
+    <orderEntry type="library" name="org.jaggeryjs.core-0.9.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="org.jaggeryjs.apps-0.9.0-SNAPSHOT" level="project" />
   </component>
 </module>

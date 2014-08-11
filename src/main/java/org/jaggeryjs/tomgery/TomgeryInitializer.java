@@ -2,11 +2,15 @@ package org.jaggeryjs.tomgery;
 
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
+import org.jaggeryjs.apps.JaggeryAppConfigs;
+import org.jaggeryjs.apps.JaggeryAsyncServlet;
 import org.jaggeryjs.apps.JaggeryContextListener;
+import org.jaggeryjs.core.JaggeryException;
 
 import javax.servlet.ServletContainerInitializer;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
+import javax.servlet.ServletRegistration;
 import java.util.Set;
 
 /**
@@ -25,7 +29,6 @@ public class TomgeryInitializer implements ServletContainerInitializer {
         if (isJaggery) {
 
             LOG.info(contextPath + " is a Jaggery Web Application");
-
             TomgeryProperties tomgeryProperties = new TomgeryProperties();
             Set<Object> tomgeryPropertiesAllKeys = tomgeryProperties.getAllKeys();
 
@@ -35,11 +38,19 @@ public class TomgeryInitializer implements ServletContainerInitializer {
                     servletContext.setInitParameter(key, tomgeryProperties.getPropertyValue(key));
                 }
             }
+            try {
+                JaggeryAppConfigs.initialize(servletContext);
+            } catch (JaggeryException e) {
+                throw new RuntimeException("Error initializing Jaggery App : " + servletContext.getContextPath(), e);
+            }
+            ServletRegistration.Dynamic registration = servletContext.addServlet(
+                    JaggeryAsyncServlet.NAME, JaggeryAsyncServlet.class);
+            registration.setAsyncSupported(true);
+            registration.addMapping("/*");
             servletContext.addListener(JaggeryContextListener.class.getName());
-        } else {
 
+            } else {
             LOG.info(contextPath + " is NOT a Jaggery Web Application");
-
         }
     }
 
