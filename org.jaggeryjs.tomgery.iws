@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a343a374-37c8-4ba7-aa29-37bb4852f5a8" name="Default" comment="support_for _tomcat8">
+    <list default="true" id="a343a374-37c8-4ba7-aa29-37bb4852f5a8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/org.jaggeryjs.apps-0.9.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/lib/org.jaggeryjs.apps-0.9.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.jaggeryjs.tomgery.iml" afterPath="$PROJECT_DIR$/org.jaggeryjs.tomgery.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.jaggeryjs.tomgery.ipr" afterPath="$PROJECT_DIR$/org.jaggeryjs.tomgery.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java" afterPath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.jaggeryjs.tomgery.iws" afterPath="$PROJECT_DIR$/org.jaggeryjs.tomgery.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="org.jaggeryjs.tomgery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -209,7 +207,7 @@
       <file leaf-file-name="TomgeryInitializer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.20718232" vertical-offset="177" max-vertical-offset="1134">
+            <state line="46" column="79" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.5317919" vertical-offset="644" max-vertical-offset="1170">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,7 +227,7 @@
       <file leaf-file-name="TomgeryAppChecker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+            <state line="15" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="486">
               <folding />
             </state>
           </provider>
@@ -238,7 +236,7 @@
       <file leaf-file-name="TomgeryProperties.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="774">
+            <state line="10" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="936">
               <folding />
             </state>
           </provider>
@@ -284,9 +282,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryListener.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java" />
       </list>
     </option>
@@ -366,7 +364,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -446,6 +443,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewSettings">
@@ -762,12 +760,19 @@
       <workItem from="1407409508872" duration="1485000" />
       <workItem from="1407419598170" duration="3942000" />
       <workItem from="1407658261085" duration="4069000" />
-      <workItem from="1407743043781" duration="8802000" />
+      <workItem from="1407743043781" duration="9604000" />
+      <workItem from="1407762813520" duration="2353000" />
+      <workItem from="1407908468045" duration="1218000" />
     </task>
+    <task id="LOCAL-00001" summary="support_for _tomcat8">
+      <created>1407755797225</created>
+      <updated>1407755797225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70774000" />
+    <option name="totallyTimeSpent" value="75147000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -792,13 +797,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33494365" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850242" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -811,6 +815,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1228,16 +1233,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1224">
+        <state line="15" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="774">
+        <state line="10" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="936">
           <folding />
         </state>
       </provider>
@@ -1249,16 +1254,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+        <state line="33" column="33" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.20718232" vertical-offset="177" max-vertical-offset="1134">
+        <state line="46" column="79" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.5317919" vertical-offset="644" max-vertical-offset="1170">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

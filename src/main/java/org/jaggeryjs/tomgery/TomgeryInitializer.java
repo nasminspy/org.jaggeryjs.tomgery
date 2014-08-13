@@ -38,16 +38,18 @@ public class TomgeryInitializer implements ServletContainerInitializer {
                     servletContext.setInitParameter(key, tomgeryProperties.getPropertyValue(key));
                 }
             }
-            try {
+           /* try {
                 JaggeryAppConfigs.initialize(servletContext);
             } catch (JaggeryException e) {
                 throw new RuntimeException("Error initializing Jaggery App : " + servletContext.getContextPath(), e);
-            }
+            }*/
+
+            servletContext.addListener(JaggeryContextListener.class.getName());
             ServletRegistration.Dynamic registration = servletContext.addServlet(
                     JaggeryAsyncServlet.NAME, JaggeryAsyncServlet.class);
             registration.setAsyncSupported(true);
             registration.addMapping("/*");
-            servletContext.addListener(JaggeryContextListener.class.getName());
+
 
             } else {
             LOG.info(contextPath + " is NOT a Jaggery Web Application");
