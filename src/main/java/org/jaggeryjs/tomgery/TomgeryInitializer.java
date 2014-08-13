@@ -1,11 +1,27 @@
+/*
+* Copyright (c) 2005-2010, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+*
+* WSO2 Inc. licenses this file to you under the Apache License,
+* Version 2.0 (the "License"); you may not use this file except
+* in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an
+* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+* KIND, either express or implied. See the License for the
+* specific language governing permissions and limitations
+* under the License.
+*/
+
 package org.jaggeryjs.tomgery;
 
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
-import org.jaggeryjs.apps.JaggeryAppConfigs;
 import org.jaggeryjs.apps.JaggeryAsyncServlet;
 import org.jaggeryjs.apps.JaggeryContextListener;
-import org.jaggeryjs.core.JaggeryException;
 
 import javax.servlet.ServletContainerInitializer;
 import javax.servlet.ServletContext;
@@ -14,7 +30,7 @@ import javax.servlet.ServletRegistration;
 import java.util.Set;
 
 /**
- * Created by nasmin on 8/4/14.
+ * SCI class registered via META-INF services to deploy jaggery app
  */
 public class TomgeryInitializer implements ServletContainerInitializer {
 
@@ -32,24 +48,22 @@ public class TomgeryInitializer implements ServletContainerInitializer {
             TomgeryProperties tomgeryProperties = new TomgeryProperties();
             Set<Object> tomgeryPropertiesAllKeys = tomgeryProperties.getAllKeys();
 
+            //get property values and set context parameter
             for(Object tomgeryPropertyKey : tomgeryPropertiesAllKeys) {
                 String key = (String)tomgeryPropertyKey;
                 if(tomgeryProperties.getPropertyValue(key) != null){
                     servletContext.setInitParameter(key, tomgeryProperties.getPropertyValue(key));
                 }
             }
-           /* try {
-                JaggeryAppConfigs.initialize(servletContext);
-            } catch (JaggeryException e) {
-                throw new RuntimeException("Error initializing Jaggery App : " + servletContext.getContextPath(), e);
-            }*/
 
+            //register the jaggery context listener on start event of the context
             servletContext.addListener(JaggeryContextListener.class.getName());
+
+            //register the jaggery async servlet and add mapping
             ServletRegistration.Dynamic registration = servletContext.addServlet(
                     JaggeryAsyncServlet.NAME, JaggeryAsyncServlet.class);
             registration.setAsyncSupported(true);
             registration.addMapping("/*");
-
 
             } else {
             LOG.info(contextPath + " is NOT a Jaggery Web Application");

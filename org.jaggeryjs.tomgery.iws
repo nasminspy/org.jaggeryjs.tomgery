@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a343a374-37c8-4ba7-aa29-37bb4852f5a8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/org.jaggeryjs.apps-0.9.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/lib/org.jaggeryjs.apps-0.9.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java" afterPath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java" afterPath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java" afterPath="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.jaggeryjs.tomgery.iml" afterPath="$PROJECT_DIR$/org.jaggeryjs.tomgery.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.jaggeryjs.tomgery.ipr" afterPath="$PROJECT_DIR$/org.jaggeryjs.tomgery.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.jaggeryjs.tomgery.iws" afterPath="$PROJECT_DIR$/org.jaggeryjs.tomgery.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="org.jaggeryjs.tomgery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,11 +209,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TomgeryInitializer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TomgeryInitializer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="79" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.5317919" vertical-offset="644" max-vertical-offset="1170">
+            <state line="65" column="42" selection-start="2728" selection-end="2728" vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="1422">
               <folding>
+                <element signature="e#0#2843#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -227,8 +233,11 @@
       <file leaf-file-name="TomgeryAppChecker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="486">
-              <folding />
+            <state line="28" column="52" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="846">
+              <folding>
+                <element signature="e#0#1389#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -236,8 +245,11 @@
       <file leaf-file-name="TomgeryProperties.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="936">
-              <folding />
+            <state line="67" column="51" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0" vertical-offset="923" max-vertical-offset="1476">
+              <folding>
+                <element signature="e#0#2356#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -245,16 +257,18 @@
       <file leaf-file-name="TomgeryConstants.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="432">
-              <folding />
+            <state line="20" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="702">
+              <folding>
+                <element signature="e#0#1042#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="33" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1224">
+            <state line="6" column="11" selection-start="348" selection-end="360" vertical-scroll-proportion="0.27222222" vertical-offset="10" max-vertical-offset="1242">
               <folding />
             </state>
           </provider>
@@ -279,12 +293,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/JaggeryTomcatListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryListener.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java" />
       </list>
     </option>
@@ -332,9 +346,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1317" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -365,6 +379,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -443,7 +458,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewSettings">
@@ -473,6 +487,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="SearchEverywhereHistory" value="This" />
   </component>
   <component name="RunManager" selected="Remote.RemoteTomcat">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -530,23 +545,17 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -577,17 +586,23 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -626,25 +641,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -678,6 +674,25 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="RemoteTomcat" type="Remote" factoryName="Remote">
@@ -762,17 +777,22 @@
       <workItem from="1407658261085" duration="4069000" />
       <workItem from="1407743043781" duration="9604000" />
       <workItem from="1407762813520" duration="2353000" />
-      <workItem from="1407908468045" duration="1218000" />
+      <workItem from="1407908468045" duration="1938000" />
+      <workItem from="1407940332052" duration="4386000" />
     </task>
     <task id="LOCAL-00001" summary="support_for _tomcat8">
       <created>1407755797225</created>
       <updated>1407755797225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding_listener">
+      <created>1407910202320</created>
+      <updated>1407910202320</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75147000" />
+    <option name="totallyTimeSpent" value="80253000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -787,7 +807,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
+    <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -797,7 +817,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33172303" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -835,7 +855,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="support_for _tomcat8" />
-    <option name="LAST_COMMIT_MESSAGE" value="support_for _tomcat8" />
+    <MESSAGE value="adding_listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding_listener" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -911,21 +932,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="486">
-          <folding />
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="864">
-          <folding />
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
-          <folding />
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -940,6 +969,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="3" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="936">
           <folding>
+            <element signature="e#0#2843#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -955,21 +985,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="486">
-          <folding />
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="864">
-          <folding />
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
-          <folding />
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -984,6 +1022,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="3" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="936">
           <folding>
+            <element signature="e#0#2843#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -999,21 +1038,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="486">
-          <folding />
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="864">
-          <folding />
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
-          <folding />
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,6 +1075,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="810">
           <folding>
+            <element signature="e#0#2843#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1043,21 +1091,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="486">
-          <folding />
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="864">
-          <folding />
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
-          <folding />
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,6 +1128,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="936">
           <folding>
+            <element signature="e#0#2843#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1087,21 +1144,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="486">
-          <folding />
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="864">
-          <folding />
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
-          <folding />
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,6 +1181,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="12" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
           <folding>
+            <element signature="e#0#2843#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1131,21 +1197,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="3" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="504">
-          <folding />
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="774">
-          <folding />
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
-          <folding />
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,21 +1233,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="5" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="594">
-          <folding />
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="9" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="648">
-          <folding />
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
-          <folding />
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,21 +1269,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="5" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="594">
-          <folding />
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="9" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="648">
-          <folding />
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
-          <folding />
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1233,40 +1323,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="702">
+          <folding>
+            <element signature="e#0#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryAppChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <folding />
+        <state line="28" column="52" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="846">
+          <folding>
+            <element signature="e#0#1389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1224">
-          <folding />
+        <state line="67" column="51" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0" vertical-offset="923" max-vertical-offset="1476">
+          <folding>
+            <element signature="e#0#2356#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jaggeryjs/tomgery/TomgeryInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="79" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.5317919" vertical-offset="644" max-vertical-offset="1170">
+        <state line="65" column="42" selection-start="2728" selection-end="2728" vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="1422">
           <folding>
+            <element signature="e#0#2843#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="348" selection-end="360" vertical-scroll-proportion="0.27222222" vertical-offset="10" max-vertical-offset="1242">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,7 +1434,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.jaggeryjs.apps-0.9.0-SNAPSHOT</last-edited>
+          <last-edited>tomcat-embed-logging-juli-8.0.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

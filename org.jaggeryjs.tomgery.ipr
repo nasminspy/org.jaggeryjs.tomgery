@@ -102,13 +102,6 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="org.jaggeryjs.core-0.9.0-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/org.jaggeryjs.core-0.9.0-SNAPSHOT.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="tomcat-embed-logging-juli-8.0.9">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-logging-juli-8.0.9.jar!/" />
