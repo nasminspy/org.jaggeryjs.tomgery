@@ -35,7 +35,9 @@ public class TomgeryAppChecker {
 
         File file = new File(catalinaPath + File.separator + TomgeryConstants.WEB_APPS + contextPath + File.separator + TomgeryConstants.JAGGERY_CONF );
 
+        System.out.println("Checking");
         return file.exists();
+
     }
 
 }
